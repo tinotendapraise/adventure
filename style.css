@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url(https://lof8sc.yourbrand.studio/files/dynamicContent/sites/lof8sc/images/en/webpage_13/m5p6d1a5/element_252/rwdMode_1/2400x700/main.webp);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.links {
+  text-decoration: none;
+  color: gray;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  list-style-type: none;
+  padding: 30px;
+  font-size: larger;
+  gap: 30px;
+}
+.links-button {
+  display: flex;
+}
+
+.nav-button {
+  background-color: white;
+  border: 2px;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: larger;
+  margin-top: 28px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: 700;
+  color: gray;
+}
+.textdiv {
+  text-align: center;
+  color: white;
+  padding: 50px;
+  margin: 70px;
+}
+.textdiv button {
+  padding: 8px;
+  border: 2px;
+  border-radius: 10px;
+  background-color: white;
+  font-size: larger;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: 700;
+  margin: 30px;
+}
+button {
+  padding: 8px;
+  border: 2px;
+  border-radius: 10px;
+  background-color: white;
+  font-size: larger;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: 700;
+  margin: 30px;
+  background-color: rgb(98, 138, 98);
+}
+.textdiv p {
+  font-size: xx-large;
+}
+.textdiv h1 {
+  font-size: 70px;
+}
+.intro-text {
+  text-align: center;
+  padding: 50px;
+  margin: 70px;
+  max-width: 45%;
+}
+.text-container h2 {
+  color: rgb(98, 138, 98);
+}
+.first-container,
+.second-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 48px;
+  justify-content: space-evenly;
+}
+.second-container {
+  padding: 30px;
+}
+.text-container {
+  text-align: center;
+  width: 30%;
+  padding-top: 70px;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto;
+  gap: 10px;
+  max-width: 800px;
+  margin: auto;
+}
+h2 {
+  text-align: center;
+  padding: 20px;
+}
+.gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.gallery img:first-child {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+.gallery img:nth-child(2) {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+.gallery img:nth-child(3),
+.gallery img:nth-child(4) {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+.contact button {
+  color: white;
+}
+footer {
+  background-color: rgb(111, 111, 119);
+}
+.icons {
+  display: flex;
+}
