@@ -147,10 +147,130 @@ h2 {
 }
 .contact button {
   color: white;
+  background-color: rgb(98, 138, 98);
 }
 footer {
   background-color: rgb(111, 111, 119);
 }
 .icons {
   display: flex;
+}
+
+@media (max-width: 1024px) {
+  /* Navbar */
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Adjust text size for headers */
+  .textdiv h1 {
+    font-size: 50px;
+  }
+
+  .textdiv p {
+    font-size: xx-large;
+  }
+
+  .intro-text h1 {
+    font-size: 36px;
+  }
+
+  .text-container h2 {
+    font-size: 36px;
+  }
+
+  /* Adjust button padding */
+  .textdiv button,
+  .text-container button {
+    font-size: medium;
+    padding: 10px 20px;
+  }
+
+  /* Gallery Adjustment for Tablet */
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Navbar */
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  header {
+    height: 70vh;
+  }
+
+  .textdiv {
+    padding: 30px;
+    margin: 40px 20px;
+  }
+
+  .textdiv h1 {
+    font-size: 40px;
+  }
+
+  .textdiv p {
+    font-size: large;
+  }
+
+  .text-container {
+    width: 90%;
+    padding-top: 50px;
+  }
+
+  .text-container h2 {
+    font-size: 28px;
+  }
+
+  .textdiv button,
+  .text-container button {
+    font-size: medium;
+    padding: 8px 15px;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .textdiv h1 {
+    font-size: 32px;
+  }
+
+  .textdiv p {
+    font-size: medium;
+  }
+
+  .textdiv button,
+  .text-container button {
+    font-size: small;
+    padding: 8px 12px;
+  }
+
+  .gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
 }
