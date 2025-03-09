@@ -54,17 +54,17 @@ header {
   border: 2px;
   border-radius: 10px;
   background-color: white;
+  color: gray;
   font-size: larger;
   padding-left: 30px;
   padding-right: 30px;
   font-weight: 700;
   margin: 30px;
 }
-button {
+.text-container button {
   padding: 8px;
   border: 2px;
   border-radius: 10px;
-  background-color: white;
   font-size: larger;
   padding-left: 30px;
   padding-right: 30px;
@@ -84,9 +84,17 @@ button {
   margin: 70px;
   max-width: 45%;
 }
-.text-container h2 {
+.intro-text h1 {
+  font-size: 48px;
+}
+.link {
   color: rgb(98, 138, 98);
 }
+.text-container h2 {
+  color: rgb(98, 138, 98);
+  font-size: 48px;
+}
+
 .first-container,
 .second-container {
   display: flex;
@@ -114,6 +122,9 @@ button {
 h2 {
   text-align: center;
   padding: 20px;
+}
+.galheading {
+  font-size: 40px;
 }
 .gallery img {
   width: 100%;
